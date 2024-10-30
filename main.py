@@ -15,7 +15,7 @@ app = FastAPI()
 
 
 # Cargamos los datos
-df_movies = pd.read_parquet('D:/2024/HenryData/Py_Individual/PI_Recomendacion/Datasets/df_limpio.parquet')
+df_movies = pd.read_parquet('Datasets/df_limpio.parquet')
 
 """
 Deben crear 6 funciones para los endpoints que se consumirán en la API, recuerden que deben tener un decorador por cada una (@app.get(‘/’)).
